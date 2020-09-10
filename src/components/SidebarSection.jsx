@@ -3,8 +3,8 @@ import SidebarTitle from './SidebarTitle.jsx'
 
 const SidebarSection = (props) => {
     return (
-        <div className="personal-info">
-            <SidebarTitle title={props.title}/>
+        <div style={{ marginBottom: 5 }}>
+            <SidebarTitle title={props.title} />
             {props.children}
         </div>
     )
